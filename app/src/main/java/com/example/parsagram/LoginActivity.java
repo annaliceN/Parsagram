@@ -1,7 +1,6 @@
 package com.example.parsagram;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -35,10 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.btnLogin);
         signupBtn = findViewById(R.id.btnSignup);
 
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(0xFFFFFFFF));
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setLogo(R.drawable.instagram_word_logo);
-        getSupportActionBar().setDisplayUseLogoEnabled(true);
+        getSupportActionBar().hide();
 
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
