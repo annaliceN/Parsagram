@@ -48,6 +48,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
         }
 
         holder.tvPostDescription.setText(post.getDescription());
+        holder.tvTimestamp.setText(post.getCreatedAt().toString());
     }
 
     @Override
@@ -80,6 +81,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
             ivPostImage = itemView.findViewById(R.id.ivPostImage);
             tvHandle = itemView.findViewById(R.id.tvHandle);
             tvPostDescription = itemView.findViewById(R.id.tvPostDescription);
+            tvTimestamp = itemView.findViewById(R.id.tvPostTimestamp);
             itemView.setOnClickListener(this);
         }
 
