@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 The following **stretch** features are implemented:
 
 - [x] Style the login page to look like the real Instagram login page.
-- [ ] Style the feed to look like the real Instagram feed.
+- [x] Style the feed to look like the real Instagram feed.
 - [x] User should switch between different tabs - viewing all posts (feed view), capture (camera and photo gallery view) and profile tabs (posts made) using a Bottom Navigation View.
 - [ ] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling.
 - [x] Show the username and creation time for each post
@@ -41,9 +41,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-
+![Walkthrough](ParsagramDemo.gif)
 
 ## Credits
 
