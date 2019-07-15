@@ -23,12 +23,12 @@ public class ParseApp extends Application {
 //        builder.networkInterceptors().add(httpLoggingInterceptor);
 
         final Parse.Configuration configuration = new Parse.Configuration.Builder(this)
-                .applicationId("anni00-owl-farm")
-                //.applicationId("myAppId")
-                .clientKey(null)
-                //.clientKey("myMasterKey")
-                .server("https://parsagram.herokuapp.com/parse")
-                //.server("https://fbu-parse-instagram.herokuapp.com/parse")
+                //.applicationId("anni00-owl-farm")
+                .applicationId("myAppId")
+                //.clientKey(null)
+                .clientKey("myMasterKey")
+                //.server("https://parsagram.herokuapp.com/parse")
+                .server("https://fbu-parse-instagram.herokuapp.com/parse")
                 .build();
         Parse.initialize(configuration);
     }
